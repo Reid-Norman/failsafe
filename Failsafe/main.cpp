@@ -35,7 +35,7 @@ std::string LoadRuleFile( const std::string &path )
 int main( int argc, const char *argv[] )
 {
     cxxopts::Options options( "Failsafe; DLP proof-of-concept" );
-    options.add_options()( "kernelModule", "Path to KernFSHook kerel module",
+    options.add_options()( "kernelModule", "Path to KernFSHook kernel module",
                            cxxopts::value< std::string >() );
     options.add_options()( "policy", "DLP policy specification file",
                            cxxopts::value< std::string >() );

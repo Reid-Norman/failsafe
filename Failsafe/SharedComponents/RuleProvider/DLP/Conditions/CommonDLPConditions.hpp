@@ -16,4 +16,5 @@ private:
     std::optional< std::string > fileExtension_;
     std::optional< std::string > pathPrefix_;
     std::optional< std::regex > pathRegex_;
+    std::optional< bool > isSensitive_;
 };

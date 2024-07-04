@@ -28,6 +28,9 @@
             "conditions": {
                 "destinationType": "usb"
             }
+        },
+        {
+            "nam"
         }
     ],
     "DCRules": [
